@@ -1,0 +1,27 @@
+{
+  "name": "opentask-oss-lab",
+  "version": "1.0.0",
+  "description": "Full-stack open-source task management application built with React, Express, and SQLite for OSS Lab",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "test:backend": "npm --prefix backend test",
+    "test": "npm run test:backend",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:frontend",
+    "start:backend": "npm --prefix backend start",
+    "dev:backend": "npm --prefix backend run dev",
+    "start:frontend": "npm --prefix frontend run dev",
+    "seed:backend": "npm --prefix backend run seed"
+  },
+  "keywords": [
+    "opentask",
+    "react",
+    "express",
+    "sqlite",
+    "full-stack",
+    "oss-lab"
+  ],
+  "author": "OpenTask Contributors",
+  "license": "MIT"
+}

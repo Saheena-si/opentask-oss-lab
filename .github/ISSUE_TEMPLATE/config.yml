@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: OpenTask Documentation
+    url: https://github.com/saheena-si/opentask-oss-lab/tree/main/docs
+    about: Please check our documentation guides before filing a support issue.

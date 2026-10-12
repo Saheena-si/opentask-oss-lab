@@ -1,0 +1,27 @@
+{
+  "name": "opentask-backend",
+  "version": "1.0.0",
+  "description": "Express.js REST API with SQLite for OpenTask management system",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node src/database/seed.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "opentask",
+    "express",
+    "sqlite",
+    "rest-api",
+    "oss-lab"
+  ],
+  "author": "OpenTask Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
